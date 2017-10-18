@@ -3,31 +3,70 @@ header {
 }
 
 h1 {
+  font-family: 'MedievalSharp', strong;
   color: #eee;
   font-size: 28px;
   background-color: #0000FF;
 }
 h2 {
   font-size: 24px;
+  font-family: 'Lovers Quarrel', cursive;
+  text-align: center;
 }
 
+body{
+  background-color: #6d97db;
 }
-body {
-font: "Georgia",Times,serif;
-background-color: orange;
+
+p {
+text-align:center;
+text-justify:inter-word;
+display: inline-block;
+color: #e29714;
+font-family: 'Glass Antiqua', cursive;
+font-size: 16;
+margin-left: 200;
+margin-right: 200;
 }
 
 .container {
-
+float:left;
 text-align: center;
-color: green;
-background-color: orange;
-top: 0;
-bottom: 50;
+width:65%;
+
+}
+
+selector:pseudo-class {
+    property:value;
+}
+/* unvisited link */
+a:link {
+    color: #217a31;
+}
+
+/* visited link */
+a:visited {
+    color: ##53b286;
+}
+
+/* mouse over link */
+a:hover {
+    color: #daeddc;
+}
+
+/* selected link */
+a:active {
+    color: #bfbaf2;
 }
 
 #bioimage {
   *position: relative;
   right: 300;
-  top: 450px;*/
+  top: 450px;
+  float:left;
+}
+
+#ContactInfo {
+  text-align: center;
+
 }
