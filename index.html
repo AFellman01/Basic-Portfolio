@@ -2,21 +2,22 @@
 
 
 <head>
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" href="assets/css/reset.css">
 </head>
 <header>
 <h1>Alexander Fellman</h1>
 </header>
 <body>
-<img id="bioimage" src= alt="Wombat">
 
 <div class="container">
+
+<img id="bioimage" src="assets/images/pratchett.jpg" alt="Terry Pratchett" height="150px" width="100px">
 
   <section id="Main-Bio">
 
     <h2>I think I can I think I can I think I can</h2>
 
-    <img src="assets/images/wombat.jpg" alt="A Wombat" height="200px" width="250px">
+    <img id="wombat" src="assets/images/wombat.jpg" alt="A Wombat" height="200px" width="250px">
 
     <p>I am sure at some point all of this will make sense to me.</p>
   </section>
@@ -29,15 +30,14 @@
       <li><strong>Portfolio:</strong> <a href="#">Portfolio goes here</a></li>
     </ul>
   </section>
-</div>
 
-
+<section id="form">
 <h2>Contact Me!</h2>
 <form method="POST" action="http://formspree.io/alexandermfellman@gmail.com">
   <input type="email" name="email" placeholder="Your email">
   <textarea name="message" placeholder="Send me a message!"></textarea>
   <button type="submit">Send</button>
 </form>
-
-
+</section>
+</div>
 </body>

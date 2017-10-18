@@ -5,6 +5,7 @@ header {
 h1 {
   color: #eee;
   font-size: 28px;
+  background-color: #0000FF;
 }
 h2 {
   font-size: 24px;
@@ -12,15 +13,20 @@ h2 {
 
 }
 body {
-background-color: #efeee7;
 font: "Georgia",Times,serif;
-color: #333333;
 margin: 0;
 padding: 0;
 }
 
-.container [
+.container {
 
-margin: 0 auto;
-float: left;
-]
+text-align: center;
+color: green;
+background-color: orange;
+}
+
+#bioimage {
+  position: relative;
+  right: 300;
+  top: 250;
+}
