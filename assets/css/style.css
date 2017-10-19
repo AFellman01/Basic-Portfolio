@@ -1,21 +1,27 @@
+
+
 header {
-  background-color: #333333;
-}
+  background-color: #0000FF;
+  width: 100000px;
+  position:fixed;
+  top:0;
+  left:0;
+  overflow: hidden;
+  }
 
 h1 {
   font-family: 'MedievalSharp', strong;
   color: #eee;
   font-size: 28px;
-  background-color: #0000FF;
 }
 h2 {
   font-size: 24px;
   font-family: 'Lovers Quarrel', cursive;
   text-align: center;
 }
-
 body{
   background-color: #6d97db;
+  display: inline-block;
 }
 
 p {
@@ -23,9 +29,9 @@ text-align:center;
 display: inline-block;
 color: #e29714;
 font-family: 'Glass Antiqua', cursive;
-font-size: 16;
-margin-left: 200;
-margin-right: 200;
+font-size: 16px;
+margin-left: 200px;
+margin-right: 200px;
 }
 
 .container {
@@ -38,14 +44,13 @@ width:65%;
 selector:pseudo-class {
     property:value;
 }
-/* unvisited link */
 a:link {
     color: #217a31;
 }
 
 /* visited link */
 a:visited {
-    color: ##53b286;
+    color: #53b286;
 }
 
 /* mouse over link */
@@ -59,24 +64,28 @@ a:active {
 }
 
 #bioimage {
-  *position: relative;
-  right: 300;
+  position: relative;
+  right: 300px;
   top: 450px;
   float:left;
 }
 
-#ContactInfo {
-  text-align: center;
-}
 
 .center-div
 {
-  .center-div
-  {
     margin: 0 auto;
     width: 100px;
     height: 100px;
-    border-radius: 3px;
-    max-width: 300px;
     height: 100px;
+    float:right;
+  }
+
+    html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: 0;
+    padding: 0;
 }
